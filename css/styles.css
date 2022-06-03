@@ -46,6 +46,20 @@ footer {
     left: 50%;
 }
 
+.fa_custom {
+    color: 
+    #0099CC
+}
+
+.github {
+    color: black;
+}
+
+.github:hover {
+    color: rgb(59, 50, 50);
+}
+
+
 @media only screen and (max-width: 600px) {
     ul {
         margin: auto;
