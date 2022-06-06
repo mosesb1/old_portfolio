@@ -32,8 +32,30 @@
             </ul>
         </nav>
     </header>
-    <main>
-        <h1>Contact</h1>
+    <main class="contact-page">
+        <h3>Contact us</h3>
+        <form action="https://formsubmit.co/moses.burkhart1@gmail.com" method="POST">
+            <div>
+                <label for="name"> Name:
+                    <input type="text" name="name" required/>
+                </label>
+            </div>
+            <div>
+                <label for="email">Email:
+                    <input type="email" name="email" required/>
+                </label>
+            </div>
+            <div>
+                <label for="message">Message:
+                    <textarea name="message" required></textarea>
+                </label>
+            </div>
+            <input type="hidden" name="_next" value="https://mosesb1.github.io/mosesb1/"/>
+            <input type="hidden" name="_captcha" value="false"/>
+            <div>
+                <button type="submit">Send Message</button>
+            </div>
+        </form>
     </main>
     <footer class="bg-dark footer text-center text-white fixed-bottom">
         <!-- Grid container -->
