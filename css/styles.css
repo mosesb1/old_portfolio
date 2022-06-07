@@ -97,6 +97,10 @@ h1 {
         display: none;
     }
 
+    .contact-page{
+        margin-bottom: 200px;
+    }
+
 }
 
 @media only screen and (min-width: 769px) {

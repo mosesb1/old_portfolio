@@ -33,27 +33,24 @@
         </nav>
     </header>
     <main class="contact-page">
-        <h3>Contact us</h3>
+        <h3>Contact Me</h3>
         <form action="https://formsubmit.co/moses.burkhart1@gmail.com" method="POST">
-            <div>
-                <label for="name"> Name:
-                    <input type="text" name="name" required/>
-                </label>
+            <div class="form-group">
+                <label for="name" class="form-label">Name:</label>
+                <input type="text" name="name" class="form-control" placeholder="Name" required/>
             </div>
-            <div>
-                <label for="email">Email:
-                    <input type="email" name="email" required/>
-                </label>
+            <div class="form-group">
+                <label for="email" class="form-label">Email:</label>
+                <input type="email" name="email" class="form-control" placeholder="Email" required/>
             </div>
-            <div>
-                <label for="message">Message:
-                    <textarea name="message" required></textarea>
-                </label>
+            <div class="form-group">
+                <label for="message" class="form-label">Message:</label>
+                <textarea name="message" class="form-control" placeholder="Message" rows="3" required></textarea>
             </div>
             <input type="hidden" name="_next" value="https://mosesb1.github.io/mosesb1/"/>
             <input type="hidden" name="_captcha" value="false"/>
             <div>
-                <button type="submit">Send Message</button>
+                <button class="btn btn-primary" type="submit">Send Message</button>
             </div>
         </form>
     </main>
