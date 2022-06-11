@@ -69,14 +69,14 @@ h1 {
 }
 
 .project-link {
-    text-decoration: none;
+    /* text-decoration: none;
     background-color: #EEEEEE;
     color: #333333;
     padding: 2px 6px 2px 6px;
     border-top: 1px solid #CCCCCC;
     border-right: 1px solid #333333;
     border-bottom: 1px solid #333333;
-    border-left: 1px solid #CCCCCC;
+    border-left: 1px solid #CCCCCC; */
     max-height: 10%;
 }
 
@@ -96,6 +96,12 @@ h1 {
 
 
 @media only screen and (max-width: 640px) {
+    .headings {
+        font-size: 50px;
+    }
+    .name-header{
+        display: none;
+    }
     ul {
         margin: auto;
     }
