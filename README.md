@@ -1,4 +1,4 @@
-[Live Link](https://github.com/mosesb1/mosesb1)
+[Live Link](https://mosesb1.github.io/mosesb1/)
 
 # Technologies Used
 - HTML
