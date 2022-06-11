@@ -240,3 +240,23 @@ h1 {
         margin-top: 230px;
     }
 }
+
+@media only screen and (min-width: 1441px){
+    #face-pic {
+        width: 15vw;
+        height: 28vh;
+        margin-top: 400px;
+    }
+    #about-div {
+        margin-top: 300px;
+    }
+    .project-img {
+        width: 80%;
+    }
+    .project-description{
+        width: 80%;
+    }
+    #project-header {
+        margin: 250px 0 100px 0;
+    }
+}
