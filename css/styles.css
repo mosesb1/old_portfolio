@@ -207,6 +207,9 @@ h1 {
         margin-bottom: 150px;
         margin-top: 150px;
     }
+    .project-hr{
+        display: none;
+    }
 }
 
 @media only screen and (min-width: 641px) {
@@ -238,6 +241,9 @@ h1 {
         width: 18vw;
         height: 30vh;
         margin-top: 230px;
+    }
+    .project-hr{
+        display: none;
     }
 }
 
