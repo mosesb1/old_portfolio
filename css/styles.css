@@ -1,11 +1,33 @@
 /* name in header, use 2nd font */
+@import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
 
 body {
-    background-color: darkgrey;
+    background-color: white;
+}
+
+.headings {
+    font-family: 'SourceSansPro-Black', Helvetica, Arial;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 2px;
+    line-height: 80px;
+    text-transform: none;
+    color: #3A4046;
 }
 
 .footer, #navbar {
     background-color: #0A0708!important;
+}
+
+.name-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 8px 0 0 20px;
+    z-index: 1031;
+    color: rgba(255,255,255,.5);
+    font-size: 2em;
 }
 
 ul {
@@ -41,7 +63,7 @@ h1 {
     flex-direction: column;
     align-items: center;
     margin: 0 50px;
-    background-color: white;
+    background-color: ;
     border-radius: 20px;
     padding: 10px;
 }
@@ -55,10 +77,13 @@ h1 {
     border-right: 1px solid #333333;
     border-bottom: 1px solid #333333;
     border-left: 1px solid #CCCCCC;
+    max-height: 10%;
 }
 
 .project-description{
     line-height: 18px;
+    font-family: 'Open Sans', serif;
+    max-height: 10%;
 }
 
 .contact-page {
@@ -68,6 +93,7 @@ h1 {
     justify-content: center;
     margin-top: 200px;
 }
+
 
 @media only screen and (max-width: 640px) {
     ul {
@@ -103,7 +129,7 @@ h1 {
 
 }
 
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 641px) and (max-width: 1440px){
     #project-footer{
         position: fixed;
         right: 0;
@@ -111,4 +137,31 @@ h1 {
         left: 0;
         z-index: 1;
     }
+    #project-header {
+        margin-top: 100px;
+        margin-bottom: 25px;
+    }
+    .project-container{
+        min-height: 100%;
+    }
+    #projects{
+        height: 55vh;
+    }
+    .project-description{
+        font-size: .9em;
+    }
+    .contact-page {
+        margin-bottom: 150px;
+        margin-top: 150px;
+    }
 }
+
+/* @media only screen and (min-width: 769px) {
+    #project-footer{
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 1;
+    }
+} */
