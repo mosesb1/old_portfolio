@@ -63,21 +63,30 @@ h1 {
     flex-direction: column;
     align-items: center;
     margin: 0 50px;
-    background-color: ;
     border-radius: 20px;
     padding: 10px;
 }
 
 .project-link {
-    /* text-decoration: none;
     background-color: #EEEEEE;
-    color: #333333;
-    padding: 2px 6px 2px 6px;
-    border-top: 1px solid #CCCCCC;
-    border-right: 1px solid #333333;
-    border-bottom: 1px solid #333333;
-    border-left: 1px solid #CCCCCC; */
-    max-height: 10%;
+    padding: 8px 20px;
+    text-decoration:none;
+    font-weight:bold;
+    border-radius:5px;
+    cursor:pointer;
+    color: white;
+}
+
+.project-links-container {
+    margin-bottom: 10px;
+}
+
+.github-btn{
+    background-color: #161C22;
+}
+
+.heroku-btn{
+    background-color: #79589F;
 }
 
 .project-description{
